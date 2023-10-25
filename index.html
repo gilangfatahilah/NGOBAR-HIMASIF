@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- My Css -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <!-- My Js -->
+    <script src="./assets/js/index.js"></script>
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand fw-medium fs-2" href="#">J.Doe</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav fs-5">
+            <li class="nav-item">
+              <a class="nav-link text-dark" aria-current="page" href="#"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#contact">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Of Nav -->
+    <!-- Home -->
+    <section class="about" id="about">
+      <div class="container-fluid">
+        <div class="row justify-content-evenly align-items-center gap-3 px-2">
+          <div
+            class="col-lg-1 order-3 order-lg-0 d-flex flex-lg-column justify-content-center gap-4 fs-2 text-center"
+          >
+            <a
+              href="#"
+              class="icon-link icon-link-hover text-decoration-none text-black-50"
+            >
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a
+              href="#"
+              class="icon-link icon-link-hover text-decoration-none text-black-50"
+            >
+              <i class="bi bi-twitter-x"></i>
+            </a>
+            <a
+              href="#"
+              class="icon-link icon-link-hover text-decoration-none text-black-50"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+          <div
+            class="col-lg-5 p-3 order-1 order-lg-1 text-center text-lg-start"
+          >
+            <h3 class="text-warning fw-light">UI/UX Designer</h3>
+            <h1 class="display-2 py-2 fw-medium">
+              Hello! this is
+              <span class="text-warning"> John Doe.</span>
+            </h1>
+            <p class="fs-5 text-black-50">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              fugit quia, explicabo maiores, natus ad earum, veniam aliquam iste
+              optio placeat. Quis eveniet expedita minima, quod adipisci et
+              nobis exercitationem omnis magnam illum quae, nisi ipsam!
+              Pariatur, reiciendis suscipit fugit non tempora nesciunt voluptas
+              repellat aliquid, cupiditate dignissimos corrupti?.
+            </p>
+            <div
+              class="d-flex gap-3 justify-content-center justify-content-lg-start"
+            >
+              <button class="btn btn-warning fs-5">Get in Touch</button>
+              <button class="btn btn-outline-dark fs-5">Resume</button>
+            </div>
+          </div>
+          <div class="col-sm-9 col-lg-4 order-0 order-lg-2 px-2">
+            <img
+              src="./assets/img/photo.jpg"
+              class="about-img w-100 img-fluid rounded-circle"
+              alt="photo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Of Home -->
+
+    <!-- Project Section -->
+    <section class="project" id="project">
+      <div class="container">
+        <h1 class="h1 fw-bold text-center p-1 mb-5">
+          <span class="text-warning">My</span> Projects
+        </h1>
+
+        <div class="row justify-content-center align-items-center mx-3 gap-3">
+          <div class="col-sm-5 col-lg-3 px-0 card">
+            <img
+              src="./assets/img/project-1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text text-black-50">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio sint cumque voluptates tempora, omnis libero?
+              </p>
+              <div class="btn btn-dark">
+                <i class="bi bi-globe"></i> Checkout Site
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5 col-lg-3 px-0 card">
+            <img
+              src="./assets/img/project-2.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text text-black-50">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio sint cumque voluptates tempora, omnis libero?
+              </p>
+              <div class="btn btn-dark">
+                <i class="bi bi-globe"></i> Checkout Site
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5 col-lg-3 px-0 card">
+            <img
+              src="./assets/img/project-3.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text text-black-50">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio sint cumque voluptates tempora, omnis libero?
+              </p>
+              <div class="btn btn-dark">
+                <i class="bi bi-globe"></i> Checkout Site
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Project Section -->
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1 class="h1 fw-bold text-center p-1 mb-5">
+          <span class="text-warning">Contact</span> Me
+        </h1>
+
+        <div class="row justify-content-center align-content-center mx-3 gap-5">
+          <div class="col-lg-5 px-0">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7107.5849690069335!2d107.00498113886103!3d-6.253339636805369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c2cefa7aa6d%3A0xc81cd4a4cf03f02d!2sUniversitas%20Bani%20Saleh!5e0!3m2!1sid!2sid!4v1698238898245!5m2!1sid!2sid"
+              class="w-100 rounded-3"
+              height="515"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-lg-6 p-5 border border-black bg-dark rounded-3">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label text-white"
+                >Full Name</label
+              >
+              <input
+                type="text"
+                class="form-control py-3"
+                id="formGroupExampleInput"
+                placeholder="Example input placeholder"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label text-white"
+                >Email</label
+              >
+              <input
+                type="text"
+                class="form-control py-3"
+                id="formGroupExampleInput2"
+                placeholder="Another input placeholder"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="floatingTextarea2" class="form-label text-white"
+                >Comments</label
+              >
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="floatingTextarea2"
+                style="height: 120px"
+              ></textarea>
+            </div>
+
+            <div class="w-100 btn btn-warning text-white">Submit</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End ofContact Section -->
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-dark">
+      <div class="d-flex flex-column">
+        <div class="social-media d-flex justify-content-center gap-3 mb-3">
+          <a href="#" class="text-decoration-none">
+            <i class="bi bi-github text-white fs-4"></i
+          ></a>
+          <a href="#" class="text-decoration-none">
+            <i class="bi bi-linkedin text-white fs-4"></i
+          ></a>
+          <a href="#" class="text-decoration-none">
+            <i class="bi bi-discord text-white fs-4"></i
+          ></a>
+        </div>
+        <div class="menu d-flex justify-content-center gap-3 mb-3">
+          <a href="#about" class="text-decoration-none text-white">About</a>
+          <a href="#project" class="text-decoration-none text-white"
+            >Projects</a
+          >
+          <a href="#contact" class="text-decoration-none text-white"
+            >Contacts</a
+          >
+        </div>
+        <div class="credit">
+          <p class="text-center text-white">
+            Ngobar Himasif | &copy; Copyright 2023
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+  </body>
+</html>
